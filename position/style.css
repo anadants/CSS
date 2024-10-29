@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+.box{
+    height: 400px;
+    width: 400px;
+    border: 5px solid black;
+    /* position: relative; - podemos definir a posição exata de alguma coisa */
+}
+.item1{
+    height: 150px;
+    width: 150px;
+    background-color:red;
+    position: relative; /* ele é relativo ao elemento-pai ou o elemento que guarda ele*/
+/* top, left, right, bottom */
+/*top: 30px;*/
+/* left: 30px; */
+z-index: -1; /* z-index define oq vai ficar na frente*/
+/* position: fixed; - o elemento fica fixo na tela*/
+/* position: absolute; */
+/* bottom: 0; */
+/* position: sticky; - acompanha por um espaço litmitado, funciona igual o fixed, mas pode ser limitado por outro elemento*/
+
+}
+body{
+    height: 500000px;
+}
+
+.item2{
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+}

@@ -1,0 +1,34 @@
+* {
+border: 0;
+padding: 0;
+margin: 0;
+}
+div {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    margin: 50px;
+}
+.box1 {
+    box-shadow: 5px 5px black;
+    /* O primeiroo valor representa a direita e o segundo para baixo, caso queira a sombra para o outro lado vc deve colocar os valores em forma negativa  */
+}
+.box2 {
+    box-shadow: -5px -5px black;
+    /* Quando maior o valor, mais a sombra vai aparecer, vc pode misturar valores negativos ou positivos */
+}
+
+.box3 {
+    box-shadow: 5px 5px 5px black;
+    /* O terceiro valor representa o desfoque, quanto maior esse valor, mais desfocada a sombra fica */
+}
+
+.box4 {
+    box-shadow: inset 25px 5px black;
+    /* A palavra inset faz a sombra dentro do elemento*/
+}
+
+.box5 {
+    box-shadow: 5px 5px 5px 5px black;
+    /* o último valor, aumenta o tamanho da sombra */
+}

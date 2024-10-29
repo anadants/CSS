@@ -1,0 +1,44 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    position: relative;
+    width: 600px;
+    overflow: hidden;
+    /*  O "overflow" é a rolagem do site  */
+}
+.carrosel {
+    display: flex;
+    transition: transform 0.05s ease-in-out;
+}
+.slide{ 
+    transition: opacity 0.5s;
+}
+.slide img {
+width: 600px;
+height: 100%;
+}
+/* .controle {
+    position: absolute;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.579);
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+    cursor: pointer;  /* quando colocamos o pointer ele muda da seta pra maozinha
+ }   */
+.controle {
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    border-radius: 360px;
+    cursor: pointer;
+}
+#anterior {
+    left: 10px;
+}
+#proximo{
+    right: 10px;
+}

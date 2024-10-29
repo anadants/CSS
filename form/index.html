@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label>Nome: </label>
+        <input type="text">
+        <input type="email">  <!-- o input email ele tem restriçoes, ent ele é ideal para colocar email-->
+     <input type="date"> <!-- ideal para colocar data -->
+     <input type="password" placeholder="digite sua senha"> <!-- ideal para colocar como senha -->
+     <input type="checkbox" name="oi">AA
+     <input type="checkbox" name="oi"> BB <!-- marcar mais de uma opção entao ele precisa de um nome  -->
+     <input type="radio" name="bb">AA
+     <input type="radio" name="bb">BB <!-- o input radio deixa marcar só uma opção -->
+
+     <select>
+        <option value="Brasil">Brasil</option>
+        <option value="EUA">EUA</option>
+        <option value="Itália">Itália</option>
+     </select> <!--  cria uma seleção -->
+
+     <input type="number" min="0" max="100"> 
+     <!-- "min" e "max" é opcional. Esse input so aceita numeros-->,
+
+     <fieldset>
+        <legend>Dados pessoais</legend>
+        <input type="text" placeholder="nome" required> <!--  o "required" torna o campo obrigatorio, ent vc nao consegue avançar sem responder  -->
+        <input type="email" placeholder="email" required>
+     </fieldset>
+
+     <textarea></textarea> <!-- quando precisa escrever mais texto, ai ele expande -->
+     <input type="color"> <!-- para escolher uma cor -->
+     <input type="file"> <!-- para o usuário enviar um arquivo -->
+     <input type="month"> <!-- para escolher mes/ano -->
+     <input type="time"> <!-- para rescolher um horario -->
+
+     <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

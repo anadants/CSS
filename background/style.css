@@ -1,0 +1,13 @@
+.textoImagem{
+    font-size: 100px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPj7HsGsm1tZhqQMuiBP9f0IpNSjqio3gqpQ&shttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPj7HsGsm1tZhqQMuiBP9f0IpNSjqio3gqpQ&s);
+     background-size: cover; 
+
+    color: transparent; /*define a cor como transparente */
+    background-clip: text; /*faz a imagem ficar envolta do texto */
+}
+.gradiente{
+background: linear-gradient(20deg,blue, pink, green, orange);
+/* to left, to right, to top,to bottom */
+/* usar a medida dag, muda o angulo do gradiente */
+}
